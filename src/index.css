@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+button {
+  background: rgb(6, 146, 6);
+  color: white;
+  font-weight: bold;
+  padding: 3px 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 400ms ease;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: rgb(2, 116, 2);
+}
+
+button:focus {
+  outline: none;
+}

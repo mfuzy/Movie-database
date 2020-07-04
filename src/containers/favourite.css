@@ -1,0 +1,21 @@
+.Favourite ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Favourite ul li {
+  margin: 10px 0;
+  background: rgb(224, 203, 9);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Favourite button {
+  background: red;
+  float: right;
+  transition: all 400ms ease;
+}
+
+.Favourite button:hover {
+  background: rgb(173, 11, 11);
+}

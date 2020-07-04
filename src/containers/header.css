@@ -1,0 +1,29 @@
+.Header h1 {
+  text-align: center;
+}
+
+.Header nav {
+  background: rgb(24, 43, 212);
+}
+
+.Header nav ul {
+  list-style-type: none;
+}
+
+.Header ul li {
+  display: inline-block;
+}
+
+.Header nav .link-menu {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  line-height: 50px;
+  display: block;
+  padding: 0 10px;
+  transition: all 400ms ease;
+}
+
+.Header nav .link-menu:hover {
+  background-color: rgb(11, 48, 128);
+}

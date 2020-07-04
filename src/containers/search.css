@@ -1,0 +1,22 @@
+.Search ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Search ul li {
+  margin: 10px 0;
+}
+
+.Search li .link-najdene {
+  display: block;
+  text-decoration: none;
+  background: rgb(243, 147, 38);
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  transition: all 400ms ease;
+}
+
+.Search li .link-najdene:hover {
+  background: rgb(221, 129, 24);
+}
